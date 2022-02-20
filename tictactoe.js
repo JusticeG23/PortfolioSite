@@ -82,7 +82,8 @@ function newGame() {
     const buttons = getGameBoardButtons();
     for (let button of buttons) {
         button.innerHTML = ""
-        button.classList.remove("someClass")
+        button.classList.remove("x")
+        button.classList.remove("o")
         button.removeAttribute("disabled")
     }
 
