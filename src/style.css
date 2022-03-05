@@ -149,8 +149,6 @@ address {
 }
 
 .project {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/denys-nevozhai-duo-xV0TU7s-unsplash.jpg");
-    background-size: cover;
     margin: 10px auto;
     width: 90%;
     color: var(--tealGrey);
@@ -159,6 +157,24 @@ address {
     min-height: 100px;
     border-radius: 10%;
 }
+
+#projectpic1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/denys-nevozhai-duo-xV0TU7s-unsplash.jpg");
+    background-size: cover;
+}
+
+#projectpic2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/james-donovan-kFHz9Xh3PPU-unsplash.jpg");
+    background-size: cover;
+}
+
+#projectpic3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/josh-withers-1PWhYZ_erME-unsplash.jpg");
+    background-size: cover;
+}
+
+
+/*For side titles*/
 
 aside>.project {
     font-size: large;
