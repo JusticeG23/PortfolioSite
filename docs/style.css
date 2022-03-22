@@ -301,3 +301,12 @@ p {
     line-height: 120%;
     font-weight: 120;
 }
+
+
+/* &.grow {
+    transition: all .2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.5);
+    }
+  } */
