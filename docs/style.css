@@ -86,17 +86,11 @@ nav ul li a {
 /* Hovering Top navigation buttons */
 
 nav ul li a:hover {
-    background: var(--yellow);
-    /* display: inline-block; */
-    /* background: transparent; */
-    /* color: #aaa; */
-    font-size: 25px;
-    /* text-transform: uppercase; */
-    /* padding: 5px 8px; */
-    /* border: 2px solid #777; */
-    /* border-radius: 45px; */
-    cursor: pointer;
+    text-decoration: underline;
+    background-color: transparent;
+    color: var(--yellow);
     transition: all .3s;
+    cursor: pointer;
 }
 
 nav ul li {
@@ -128,6 +122,8 @@ aside {
 
 article {
     border: solid var(--charcoal);
+    padding: 10px;
+    border-radius: 5%;
     position: relative;
     top: 0;
     transition: top ease 0.5s;
@@ -187,7 +183,8 @@ footer a {
 footer a:hover {
     background-color: transparent;
     color: var(--yellow);
-    font-size: 25px;
+    text-decoration: underline;
+    /* font-size: 25px;  */
     transition: all .3s;
 }
 
