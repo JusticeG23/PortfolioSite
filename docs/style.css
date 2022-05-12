@@ -297,18 +297,21 @@ address a:hover {
 }
 
 #projectpic1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/denys-nevozhai-duo-xV0TU7s-unsplash.jpg");
+    background-image: url('https://picsum.photos/200/120');
     background-size: cover;
+    background-position: center;
 }
 
 #projectpic2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/james-donovan-kFHz9Xh3PPU-unsplash.jpg");
+    background-image: url('https://picsum.photos/200/120');
     background-size: cover;
+    background-position: center;
 }
 
 #projectpic3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/josh-withers-1PWhYZ_erME-unsplash.jpg");
+    background-image: url('https://picsum.photos/200/120');
     background-size: cover;
+    background-position: center;
 }
 
 
