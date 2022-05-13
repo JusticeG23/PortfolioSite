@@ -289,7 +289,7 @@ address a:hover {
 .project {
     margin: 10px auto;
     width: 90%;
-    color: white;
+    color: #fff;
     padding: 10px;
     /* background: var(--charcoal); */
     min-height: 100px;
@@ -297,21 +297,21 @@ address a:hover {
 }
 
 #projectpic1 {
-    filter: brightness(50%);
+    opacity: 0.8;
     background-image: url('https://picsum.photos/200/300/?blur=5&random=1');
     background-size: cover;
     background-position: center;
 }
 
 #projectpic2 {
-    filter: brightness(50%);
+    opacity: 0.8;
     background-image: url('https://picsum.photos/200/300/?blur=5&random=2');
     background-size: cover;
     background-position: center;
 }
 
 #projectpic3 {
-    filter: brightness(50%);
+    opacity: 0.8;
     background-image: url('https://picsum.photos/200/300/?blur=5&random=3');
     background-size: cover;
     background-position: center;
@@ -337,6 +337,7 @@ aside>.project {
 }
 
 .project:hover .overlay {
+    color: white;
     opacity: 1;
 }
 
