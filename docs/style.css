@@ -297,19 +297,19 @@ address a:hover {
 }
 
 #projectpic1 {
-    background-image: url('https://picsum.photos/200/120');
+    background-image: url('https://picsum.photos/200/300/?blur=5&random=1');
     background-size: cover;
     background-position: center;
 }
 
 #projectpic2 {
-    background-image: url('https://picsum.photos/200/120');
+    background-image: url('https://picsum.photos/200/300/?blur=5&random=2');
     background-size: cover;
     background-position: center;
 }
 
 #projectpic3 {
-    background-image: url('https://picsum.photos/200/120');
+    background-image: url('https://picsum.photos/200/300/?blur=5&random=3');
     background-size: cover;
     background-position: center;
 }
