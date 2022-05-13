@@ -289,7 +289,7 @@ address a:hover {
 .project {
     margin: 10px auto;
     width: 90%;
-    color: var(--tealGrey);
+    color: white;
     padding: 10px;
     /* background: var(--charcoal); */
     min-height: 100px;
