@@ -297,18 +297,21 @@ address a:hover {
 }
 
 #projectpic1 {
+    filter: brightness(50%);
     background-image: url('https://picsum.photos/200/300/?blur=5&random=1');
     background-size: cover;
     background-position: center;
 }
 
 #projectpic2 {
+    filter: brightness(50%);
     background-image: url('https://picsum.photos/200/300/?blur=5&random=2');
     background-size: cover;
     background-position: center;
 }
 
 #projectpic3 {
+    filter: brightness(50%);
     background-image: url('https://picsum.photos/200/300/?blur=5&random=3');
     background-size: cover;
     background-position: center;
